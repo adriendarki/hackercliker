@@ -1,0 +1,28 @@
+.userContainer{
+	width: 400px;
+	height: 600px;
+}
+
+.userContainer div{
+    width: 99%;
+}
+
+.progressBarContainer{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.userInfoContainer{
+	margin: auto;
+	font-size: 1.25em;
+}
+.userInfoContainer p{
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+}
+
+.userPseudoContainer p{
+	font-size: 1.5em;
+}

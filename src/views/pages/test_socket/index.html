@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="timer"></div>
+    <button onClick="onClick1()">Click 1</button>
+    <button onClick="onClick2()">Click 2</button>
+    <script type="text/javascript">
+      const socket = io();
+      window.socket = socket;
+
+      function onClick1() {
+        socket.emit('click', 1)
+      }
+
+      function onClick2() {
+        socket.emit('click', 2)
+      }
+
+      socket.on('qq1-a-clique', (nb) => {
+        console.log('User 1 a cliquer : ', nb)
+      })
+
+      socket.on('qq2-a-clique', (nb) => {
+        console.log('User 2 a cliquer ', nb)
+      })
+    </script>
+  </body>
+</html>
