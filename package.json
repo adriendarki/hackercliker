@@ -7,7 +7,7 @@
     "bootstrap4": "0.0.1-security",
     "cors": "^2.8.5",
     "mysql": "^2.17.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "number-to-decimal-form-string-x": "^2.1.2",
     "numeral": "^2.0.6",
     "react": "^16.9.0",
